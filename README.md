@@ -325,7 +325,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Dhiraj Dahale** - *Project Lead & AI Engineer*
 - 🔗 GitHub: [@didaco97](https://github.com/didaco97)
 - 📧 Email: dhirajdahale96@gmail.com
-- 💼 LinkedIn: [Dhiraj Dahale](https://linkedin.com/in/dhiraj-dahale)
+- 💼 LinkedIn: [Dhiraj Dahale]([https://linkedin.com/in/dhiraj-dahale](https://www.linkedin.com/in/dhiraj-dahale-028b6229b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app))
 
 ### 🤝 Development Team
 - **AI/ML Engineering**: Custom model training and optimization
