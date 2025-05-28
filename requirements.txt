@@ -1,0 +1,41 @@
+# HickOyolo Independent System Dependencies
+# Hiking Trail Detection with YOLO - Complete Self-Contained System
+
+# Core ML Framework with GPU Support
+torch>=2.5.1  # PyTorch with CUDA support
+torchvision>=0.20.1  # Computer vision for PyTorch
+torchaudio>=2.5.1  # Audio processing for PyTorch
+
+# YOLO and Computer Vision
+ultralytics>=8.3.0  # YOLOv11 support with multi-model capability
+opencv-python>=4.11.0  # Computer vision library
+pillow>=10.0.0  # Image processing
+
+# Note: YOLO models will be automatically downloaded:
+# - yolo11n.pt (nano - fast)
+# - yolo11s.pt (small - balanced)
+# - yolo11m.pt (medium - accurate)
+# - yolo11s-seg.pt (segmentation)
+
+# Scientific Computing
+numpy>=1.24.0  # Numerical computing
+scipy>=1.10.0  # Scientific computing
+matplotlib>=3.7.0  # Plotting and visualization
+pandas>=2.0.0  # Data manipulation and analysis
+
+# GUI Framework
+# tkinter  # Built-in Python GUI (usually included)
+# customtkinter>=5.2.0  # Modern GUI components for cyberpunk theme (optional)
+
+# Utilities
+pyyaml>=6.0  # YAML configuration files
+requests>=2.31.0  # HTTP requests
+tqdm>=4.64.0  # Progress bars
+psutil  # System and process monitoring
+
+# Performance and Logging
+colorama>=0.4.6  # Colored terminal output
+python-dateutil>=2.8.2  # Date utilities
+
+# Optional Performance Enhancements
+# lap>=0.5.12  # Linear Assignment Problem solver for tracking (auto-installed by ultralytics)

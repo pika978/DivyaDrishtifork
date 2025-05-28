@@ -1,0 +1,37 @@
+# DivyaDrishti Custom Tracker Configuration
+# BoT-SORT with ReID for hiking trail detection
+
+# Tracker type
+tracker_type: botsort
+
+# Detection thresholds
+track_high_thresh: 0.6      # First association threshold
+track_low_thresh: 0.1       # Second association threshold
+new_track_thresh: 0.7       # New track creation threshold
+track_buffer: 60            # Track persistence (frames)
+match_thresh: 0.8           # Matching threshold
+
+# Re-identification settings
+with_reid: true             # Enable re-identification
+proximity_thresh: 0.5       # Proximity threshold for ReID
+appearance_thresh: 0.25     # Appearance threshold for ReID
+
+# Motion model
+motion_model: KalmanFilter  # Motion model type
+std_weight_position: 1.0    # Standard deviation weight for position
+std_weight_velocity: 1.0    # Standard deviation weight for velocity
+
+# Track management
+min_box_area: 10            # Minimum bounding box area
+track_thresh: 0.5           # Track threshold
+frame_rate: 30              # Expected frame rate
+
+# Hiking-specific settings
+trail_detection_weight: 1.2  # Weight for trail-related detections
+person_tracking_priority: 1.5  # Priority for person tracking
+equipment_tracking_weight: 0.8  # Weight for equipment tracking
+
+# Advanced settings
+lambda_: 0.98               # Exponential moving average parameter
+ema_alpha: 0.9              # EMA alpha for appearance features
+mc_lambda: 0.995            # Multi-camera lambda parameter
