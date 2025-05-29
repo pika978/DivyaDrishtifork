@@ -1,6 +1,6 @@
-# 🎯 DivyaDrishti System Overview
+# 🚁 DivyaDrishti Border Surveillance System Overview
 
-## ✅ Complete Independent System Created
+## ✅ Complete Independent Border Security System Created
 
 ### 📁 System Structure
 ```
@@ -12,8 +12,8 @@ DivyaDrishti/
 │   └── utils.py                   # Utility functions
 │
 ├── 🧠 AI & Detection
-│   ├── object_detector.py         # Hiking trail YOLO detector
-│   ├── detection_logger.py        # Detection logging system
+│   ├── object_detector.py         # Border surveillance YOLO detector
+│   ├── detection_logger.py        # Threat detection logging system
 │   └── performance_monitor.py     # Performance tracking
 │
 ├── 📦 Installation & Setup
@@ -35,28 +35,28 @@ DivyaDrishti/
 
 ## 🎯 Key Features Implemented
 
-### 🥾 Hiking-Specific Detection
-- ✅ Custom YOLO model integration for hiking trails
-- ✅ Trail, path, and walkway detection
-- ✅ Hiker and person detection
-- ✅ Equipment recognition (backpacks, tents, gear)
+### 🚨 Border Security Detection
+- ✅ Custom YOLO model integration for border surveillance
+- ✅ Unauthorized trail and illegal crossing detection
+- ✅ Human intrusion and personnel detection
+- ✅ Suspicious equipment recognition (smuggling gear, contraband)
 - ✅ Real-time processing with GPU acceleration
 
-### 🎮 Cyberpunk GUI Interface
-- ✅ Dark theme with neon green/pink/cyan colors
-- ✅ Toggle buttons for all major features
-- ✅ Side-by-side video displays (original vs processed)
+### 🎮 Tactical Command Interface
+- ✅ Professional dark theme with security-focused colors
+- ✅ Toggle buttons for all major surveillance features
+- ✅ Side-by-side video displays (Alpha Drone Feed vs processed)
 - ✅ Real-time performance monitoring
-- ✅ Detection log with statistics
-- ✅ Confidence threshold slider
+- ✅ Threat detection log with statistics
+- ✅ Confidence threshold slider for threat sensitivity
 
 ### ⚡ Advanced Features
 - ✅ GPU acceleration with CUDA support
-- ✅ Segmentation mode toggle
-- ✅ Object tracking toggle
-- ✅ Auto-save screenshots toggle
-- ✅ Multiple video sources (camera, file, stream)
-- ✅ Comprehensive logging (CSV & JSON)
+- ✅ Segmentation mode toggle for detailed threat analysis
+- ✅ Object tracking toggle for persistent threat monitoring
+- ✅ Auto-save evidence screenshots toggle
+- ✅ Multiple surveillance sources (drone feeds, security cameras, streams)
+- ✅ Comprehensive intelligence logging (CSV & JSON)
 - ✅ Performance monitoring and export
 
 ### 🔧 Independent Operation
@@ -99,11 +99,11 @@ python main.py --check
 
 ## 🎯 Model Integration
 
-### FootTrail Detection Model
+### Border Surveillance Detection Model
 - **Location**: `../FootTrail Detection Model/hiking_trail_dataset/pretrained_model/foottrail.pt`
 - **Status**: ✅ Automatically detected and loaded
-- **Type**: Custom YOLO model for foottrail scenarios
-- **Classes**: Trails, hikers, equipment, outdoor objects
+- **Type**: Custom YOLO model for border surveillance scenarios
+- **Classes**: Unauthorized trails, human intrusions, suspicious equipment, terrain analysis
 
 ## 🎮 GUI Controls
 
@@ -126,10 +126,10 @@ python main.py --check
 - **Location**: `screenshots/` directory
 - **Format**: JPG with timestamp
 
-### Detection Logs
-- **CSV**: `logs/hiking_detections.csv`
-- **JSON**: `logs/hiking_detections.json`
-- **Real-time**: Live statistics in GUI
+### Threat Detection Logs
+- **CSV**: `logs/border_surveillance_detections.csv`
+- **JSON**: `logs/border_surveillance_detections.json`
+- **Real-time**: Live threat statistics in GUI
 
 ### Performance Logs
 - **System metrics**: CPU, GPU, memory usage
@@ -162,20 +162,20 @@ python main.py --check
 - ✅ **Self-contained**: All components included
 
 ### Different Features
-- **Hiking-specific**: Custom model for trails and outdoor scenarios
-- **Cyberpunk theme**: Different visual design
-- **Toggle controls**: GUI-based feature switching
-- **Auto-logging**: Built-in detection tracking
-- **Performance focus**: Real-time monitoring
+- **Border Security-specific**: Custom model for surveillance and threat detection
+- **Tactical theme**: Professional security-focused visual design
+- **Toggle controls**: GUI-based feature switching for security operations
+- **Auto-logging**: Built-in threat detection tracking
+- **Performance focus**: Real-time monitoring for security applications
 
 ## 🎉 Ready to Use!
 
-The DivyaDrishti system is now **completely ready** and can be used independently:
+The DivyaDrishti border surveillance system is now **completely ready** and can be used independently:
 
 1. **✅ All dependencies installed**
-2. **✅ Hiking model detected**
+2. **✅ Border surveillance model detected**
 3. **✅ GPU acceleration available**
-4. **✅ GUI system ready**
+4. **✅ Tactical GUI system ready**
 5. **✅ Independent operation confirmed**
 
 ### Start Using DivyaDrishti:
@@ -184,4 +184,4 @@ cd DivyaDrishti
 python main.py
 ```
 
-**🎯 Enjoy your independent hiking trail detection system!**
+**🚁 Enjoy your independent border surveillance detection system!**
