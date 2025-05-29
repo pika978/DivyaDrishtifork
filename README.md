@@ -1,10 +1,10 @@
-# 🎯 DivyaDrishti - AI-Powered Drone Surveillance System
+# 🚁 DivyaDrishti - AI-Powered Drone Border Surveillance System
 
 <div align="center">
 
-![DivyaDrishti Logo](https://img.shields.io/badge/DivyaDrishti-AI%20Surveillance-00ff41?style=for-the-badge&logo=drone&logoColor=white)
+![DivyaDrishti Logo](https://img.shields.io/badge/DivyaDrishti-Border%20Security-00ff41?style=for-the-badge&logo=drone&logoColor=white)
 
-**Advanced AI-Powered Drone Surveillance System with Custom FootTrail Detection**
+**Advanced AI-Powered Drone Border Surveillance System for Unauthorized Trail Detection**
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776ab?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.5.1+-ee4c2c?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org)
@@ -16,38 +16,38 @@
 
 ## 🌟 Overview
 
-**DivyaDrishti** is a cutting-edge AI-powered drone surveillance system specifically designed for outdoor monitoring and foottrail detection. Built with state-of-the-art computer vision technology, it features a **custom-trained YOLO model** for specialized foottrail and outdoor environment detection, wrapped in an intuitive cyberpunk-themed interface.
+**DivyaDrishti** is a cutting-edge AI-powered drone border surveillance system specifically designed for detecting unauthorized trails, human intrusions, and suspicious activities in restricted border zones. Built with state-of-the-art computer vision technology, it features **custom-trained YOLO models** for specialized border security scenarios, wrapped in a professional tactical interface.
 
 ### 🎯 Key Highlights
-- **Custom FootTrail Detection Model**: Specially trained YOLO model for outdoor/hiking scenarios
-- **Real-time AI Processing**: GPU-accelerated detection with 25-30 FPS performance
-- **Multi-Model Support**: Dynamic switching between YOLOv11 variants
-- **Cyberpunk GUI**: Futuristic interface with real-time monitoring capabilities
-- **Comprehensive Logging**: Advanced detection tracking and performance monitoring
+- **Border Security Focus**: AI-powered detection of unauthorized crossings and illegal trails
+- **Real-time Threat Detection**: GPU-accelerated processing with 25-30 FPS performance
+- **Multi-Model Intelligence**: Dynamic switching between YOLOv11 variants for different scenarios
+- **Tactical Command Interface**: Professional cyberpunk-themed interface for security operations
+- **Comprehensive Intelligence**: Advanced detection tracking and evidence logging
 
 ## 🚀 Features
 
 ### 🤖 AI Detection Capabilities
-- **🥾 Custom FootTrail Detection**: Specialized model trained for outdoor environments
-- **👤 Person & Hiker Detection**: Real-time human detection and tracking
-- **🌿 Vegetation & Terrain Analysis**: Grass, rocks, trails, and natural structures
-- **📦 Equipment Recognition**: Outdoor gear and camping equipment detection
-- **🎯 Multi-Class Detection**: 8+ specialized outdoor environment classes
+- **🚨 Unauthorized Trail Detection**: Specialized model trained for illegal border crossings
+- **👤 Human Intrusion Detection**: Real-time detection of unauthorized personnel
+- **🌿 Terrain & Environment Analysis**: Natural cover, concealment areas, and crossing points
+- **📦 Suspicious Equipment Recognition**: Detection of smuggling equipment and contraband
+- **🎯 Multi-Class Border Security**: 8+ specialized border surveillance classes
 
 ### ⚡ Advanced Technology
-- **🔄 Real-time Processing**: Live video feed analysis with GPU acceleration
+- **🔄 Real-time Processing**: Live drone feed analysis with GPU acceleration
 - **🤖 AI Segmentation**: Toggle between detection and segmentation modes
 - **📊 Performance Monitoring**: Real-time FPS and system metrics
-- **💾 Smart Logging**: Simplified notification-based detection logs
-- **📸 Auto-capture**: Intelligent screenshot and video recording
-- **🗺️ Tactical Mapping**: Interactive drone location visualization
+- **💾 Intelligence Logging**: Comprehensive threat detection and evidence logging
+- **📸 Evidence Capture**: Automatic screenshot and video recording of security events
+- **🗺️ Tactical Mapping**: Interactive drone location and threat visualization
 
-### 🎮 User Experience
-- **🌌 Cyberpunk Interface**: Dark theme with neon accents and animations
-- **📱 Intuitive Controls**: Easy-to-use detection controls and settings
-- **📊 Live Dashboard**: Real-time performance and detection statistics
-- **🔧 Dynamic Configuration**: Hot-swappable models and settings
-- **📹 Multi-source Input**: Camera, video files, and stream support
+### 🎮 Command Interface
+- **🌌 Professional Theme**: Dark tactical interface with security-focused design
+- **📱 Intuitive Controls**: Easy-to-use detection controls for security personnel
+- **📊 Live Dashboard**: Real-time threat assessment and detection statistics
+- **🔧 Dynamic Configuration**: Hot-swappable models for different surveillance scenarios
+- **📹 Multi-source Input**: Drone feeds, security cameras, and surveillance streams
 
 ## 🛠️ Technology Stack
 
@@ -77,31 +77,31 @@
 🌐 Webbrowser            # Tactical map integration
 ```
 
-## 🎯 Custom FootTrail Detection Model
+## 🎯 Custom Border Surveillance Detection Model
 
 ### 🏗️ Model Architecture
-- **Base**: YOLOv11 architecture optimized for outdoor environments
-- **Training Data**: Custom dataset of hiking trails, outdoor terrains, and natural environments
-- **Classes**: 8 specialized outdoor detection classes
+- **Base**: YOLOv11 architecture optimized for border security environments
+- **Training Data**: Custom dataset of border crossings, unauthorized trails, and restricted zones
+- **Classes**: 8 specialized border surveillance detection classes
 - **Performance**: 25-30 FPS on NVIDIA GTX 1650, 54.8MB model size
 
-### 🌿 Detection Classes
+### 🚨 Detection Classes
 ```
-🌱 grass          # Grass and ground vegetation
-🪨 rock           # Rock formations and stones
-🥾 rocky-trail    # Rocky hiking trails
-🌳 roots          # Tree roots and natural obstacles
-🛤️ rough-trail    # Rough or uneven trail surfaces
-🏗️ structure      # Man-made structures and facilities
-🌲 tree-trunk     # Tree trunks and large vegetation
-🌿 vegetation     # General vegetation and plant life
+🌱 grass          # Ground cover and concealment areas
+🪨 rock           # Rock formations and natural barriers
+🥾 unauthorized-trail    # Illegal crossing paths and smuggling routes
+🌳 roots          # Natural obstacles and concealment points
+🛤️ rough-terrain    # Difficult crossing areas and natural barriers
+🏗️ structure      # Border infrastructure and security installations
+🌲 tree-trunk     # Large vegetation providing cover
+🌿 vegetation     # Natural concealment and hiding spots
 ```
 
 ### 📊 Model Performance
-- **Accuracy**: High precision for outdoor environment detection
+- **Accuracy**: High precision for border security threat detection
 - **Speed**: Real-time processing at 25-30 FPS (GPU)
-- **Size**: Optimized 54.8MB model for efficient deployment
-- **Compatibility**: CUDA-accelerated with CPU fallback support
+- **Size**: Optimized 54.8MB model for efficient field deployment
+- **Compatibility**: CUDA-accelerated with CPU fallback for remote operations
 
 ## 📁 Project Structure
 
@@ -177,10 +177,10 @@ python main.py
 ```
 
 ### 🎮 First Run
-1. **Select Input Source**: Choose camera, video file, or stream
-2. **Choose Model**: Select FootTrail Detection Model (default)
+1. **Select Input Source**: Choose drone feed, security camera, or surveillance stream
+2. **Choose Model**: Select Border Surveillance Detection Model (default)
 3. **Start Detection**: Click "🚀 START DETECTION"
-4. **Monitor Results**: View real-time detections in the notification panel
+4. **Monitor Threats**: View real-time threat detections in the alert panel
 
 ## 🔧 Configuration & Customization
 
@@ -188,12 +188,12 @@ python main.py
 Edit `config.py` to customize:
 ```python
 # Detection Settings
-CONFIDENCE_THRESHOLD = 0.5      # Detection confidence
-DEFAULT_MODEL_KEY = "foottrail" # Default model selection
-ENABLE_GPU = True               # GPU acceleration
+CONFIDENCE_THRESHOLD = 0.5      # Threat detection confidence
+DEFAULT_MODEL_KEY = "border_surveillance" # Default model selection
+ENABLE_GPU = True               # GPU acceleration for real-time processing
 
 # GUI Settings
-CYBERPUNK_THEME = {             # Interface styling
+TACTICAL_THEME = {              # Professional interface styling
     "primary_color": "#00ff41",
     "bg_color": "#0a0a0a"
 }
@@ -229,10 +229,10 @@ SKIP_FRAMES = 1                 # Frame processing interval
 - **🔄 RESTART**: Restart application
 
 ### 📊 Information Panels
-- **🎯 Detection Notifications**: Simple one-line detection alerts
+- **🎯 Threat Alerts**: Real-time security breach notifications
 - **📈 Performance Monitor**: Real-time FPS and system metrics
-- **🗺️ Drone Location**: GPS coordinates and sector information
-- **⚙️ System Status**: Model info and device status
+- **🗺️ Drone Location**: GPS coordinates and surveillance sector information
+- **⚙️ System Status**: Model info and security device status
 
 ### 🎚️ Settings Panel
 - **Confidence Threshold**: Adjust detection sensitivity
@@ -245,7 +245,7 @@ SKIP_FRAMES = 1                 # Frame processing interval
 
 #### Model Not Found
 ```
-✗ FootTrail model not found
+✗ Border Surveillance model not found
 ```
 **Solution**: Ensure model is at: `FootTrail Detection Model/hiking_trail_dataset/pretrained_model/foottrail.pt`
 
@@ -325,7 +325,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Dhiraj Dahale** - *Project Lead & AI Engineer*
 - 🔗 GitHub: [@didaco97](https://github.com/didaco97)
 - 📧 Email: dhirajdahale96@gmail.com
-- 💼 LinkedIn: [Dhiraj Dahale](https://www.linkedin.com/in/dhiraj-dahale-028b6229b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- 💼 LinkedIn: [Dhiraj Dahale](https://www.linkedin.com/in/dhiraj-dahale-028b6229b)
 
 ### 🤝 Development Team
 - **AI/ML Engineering**: Custom model training and optimization
@@ -365,7 +365,7 @@ python main.py --debug
 
 <div align="center">
 
-**🎯 DivyaDrishti v1.0.0** - *AI-Powered Drone Surveillance System*
+**🚁 DivyaDrishti v1.0.0** - *AI-Powered Drone Border Surveillance System*
 
 *Developed with ❤️ by Dhiraj Dahale and Team*
 
