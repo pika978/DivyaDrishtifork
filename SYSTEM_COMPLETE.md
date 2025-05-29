@@ -1,19 +1,19 @@
-# 🎉 DivyaDrishti Complete System - Successfully Deployed!
+# 🚁 DivyaDrishti Complete Border Surveillance System - Successfully Deployed!
 
 ## 🚀 System Status: **FULLY OPERATIONAL**
 
-The complete DivyaDrishti hiking trail detection system with single shot detection and tracking is now running successfully!
+The complete DivyaDrishti border surveillance system with single shot detection and tracking is now running successfully!
 
 ## ✅ What's Been Accomplished
 
 ### 🎯 Core Features Implemented
-- **Multi-Model Support**: Hiking Trail, YOLOv11n/s/m, YOLOv11s-seg
-- **Single Shot Detection**: Prevents duplicate detections of same objects
-- **Advanced Tracking**: BoT-SORT with Re-identification (ReID)
+- **Multi-Model Support**: Border Surveillance, YOLOv11n/s/m, YOLOv11s-seg
+- **Single Shot Detection**: Prevents duplicate detections of same threats
+- **Advanced Tracking**: BoT-SORT with Re-identification (ReID) for persistent threat monitoring
 - **GPU Acceleration**: Running on NVIDIA GeForce GTX 1650 with CUDA
-- **Cyberpunk GUI**: Professional interface with real-time controls
+- **Tactical GUI**: Professional security interface with real-time controls
 - **Performance Monitoring**: Real-time FPS and system metrics
-- **Detection Logging**: CSV and JSON export capabilities
+- **Intelligence Logging**: CSV and JSON export capabilities for threat analysis
 
 ### 🔧 Technical Achievements
 - **YOLOv11s-seg Model Fix**: Resolved corruption detection and auto-recovery
@@ -73,11 +73,11 @@ DivyaDrishti/
 ```
 
 ### Model Support
-- **Hiking Trail Model**: Custom outdoor/hiking detection
+- **Border Surveillance Model**: Custom border security/threat detection
 - **YOLOv11n**: Fast general detection (nano)
 - **YOLOv11s**: Balanced performance (small)
 - **YOLOv11m**: High accuracy (medium)
-- **YOLOv11s-seg**: Segmentation mode
+- **YOLOv11s-seg**: Segmentation mode for detailed threat analysis
 
 ## 🎯 Single Shot Detection Features
 
@@ -97,9 +97,9 @@ DivyaDrishti/
 
 ### Current System Stats
 - **Device**: NVIDIA GeForce GTX 1650 (CUDA)
-- **Model**: Hiking Trail (8 classes) + YOLOv11 variants (80 classes)
-- **Detection Classes**: grass, rock, rocky-trail, roots, rough-trail, structure, tree-trunk, vegetation
-- **Tracking Algorithm**: BoT-SORT with ReID
+- **Model**: Border Surveillance (8 classes) + YOLOv11 variants (80 classes)
+- **Detection Classes**: grass, rock, unauthorized-trail, roots, rough-terrain, structure, tree-trunk, vegetation
+- **Tracking Algorithm**: BoT-SORT with ReID for persistent threat tracking
 - **Processing**: Real-time at 25-30 FPS
 
 ### Quality Metrics
@@ -157,9 +157,9 @@ The system is now **production-ready** and fully operational! Users can:
 
 ## 🎯 Final Status
 
-**🎉 DivyaDrishti Complete System: SUCCESSFULLY DEPLOYED AND RUNNING!**
+**🚁 DivyaDrishti Complete Border Surveillance System: SUCCESSFULLY DEPLOYED AND RUNNING!**
 
-The advanced hiking trail detection system with single shot detection and tracking is now fully operational, providing professional-grade object detection capabilities with a cyberpunk-themed interface and comprehensive feature set.
+The advanced border surveillance detection system with single shot detection and tracking is now fully operational, providing professional-grade threat detection capabilities with a tactical interface and comprehensive security feature set.
 
 ---
 
